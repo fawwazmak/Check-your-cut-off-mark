@@ -20,7 +20,7 @@ form {
     width: 40%;
     position: absolute;
     right: 7%;
-    top: 20%;
+    top: 10%;
     background-color: rgb(238, 233, 225);
     padding: 8px;
     border-radius: 10px;
@@ -29,6 +29,12 @@ form {
 [for="school"] {
     font-size: 30px;
     margin-bottom: 10px;
+}
+
+#grades {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .header {
@@ -48,10 +54,24 @@ input, select {
     border-radius: 5px;
     padding: 15px;
     width: 100%;
+    display: block;
+    margin-top: 5px;
 }
 
 label, input {
     display: block;
+}
+
+#olevel {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#subjects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 [type="submit"] {

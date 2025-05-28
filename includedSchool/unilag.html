@@ -3,9 +3,219 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
     <title>Calculate your aggregate for Unilag</title>
 </head>
 <body>
-    Unilag
+    <h1 class="header">UNILAG CUT-OFF MARK CALCULATOR</h1>
+
+    <form action="">
+        <h3>O'level Subject (select the five O'level subject related to your course)</h3>
+        <div id="olevel">
+            <div id="subjects">
+                <h5>Subjects</h5>
+                <select required name="firstSubject" id="firstSubject">
+                    <option value="" disabled selected>-- Select a subject --</option>
+                    <option value="english">English</option>
+                    <option value="maths">Mathematics</option>
+                    <option value="physics">Physics</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="account">Account</option>
+                    <option value="fmaths">Further Mathematics</option>
+                    <option value="commerce">Commerce</option>
+                    <option value="lit">Literature in English</option>
+                    <option value="econs">Economics</option>
+                    <option value="irs">IRK or CRK</option>
+                    <option value="government">Government</option>
+                    <option value="geography">Geography</option>
+                    <option value="biology">Biology</option>
+                    <option value="agric">Agriculture</option>
+                    <option value="french">French</option>
+                    <option value="yoruba">Yoruba</option>
+                    <option value="arabic">Arabic</option>
+                    <option value="hausa">Hausa</option>
+                    <option value="igbo">Igbo</option>
+                    <option value="history">History</option>
+                    <option value="music">Music</option>
+                    <option value="computer">Computer</option>
+                    <option value="fineArt">Fine Art</option>
+                    <option value="homeEcons">Home Economics</option>
+                    <option value="phe">PHE</option>
+                </select>
+
+                <select required name="secondSubject" id="secondSubject">
+                    <option value="" disabled selected>-- Select a subject --</option>
+                    <option value="english">English</option>
+                    <option value="maths">Mathematics</option>
+                    <option value="physics">Physics</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="account">Account</option>
+                    <option value="fmaths">Further Mathematics</option>
+                    <option value="commerce">Commerce</option>
+                    <option value="lit">Literature in English</option>
+                    <option value="econs">Economics</option>
+                    <option value="irs">IRK or CRK</option>
+                    <option value="government">Government</option>
+                    <option value="geography">Geography</option>
+                    <option value="biology">Biology</option>
+                    <option value="agric">Agriculture</option>
+                    <option value="french">French</option>
+                    <option value="yoruba">Yoruba</option>
+                    <option value="arabic">Arabic</option>
+                    <option value="hausa">Hausa</option>
+                    <option value="igbo">Igbo</option>
+                    <option value="history">History</option>
+                    <option value="music">Music</option>
+                    <option value="computer">Computer</option>
+                    <option value="fineArt">Fine Art</option>
+                    <option value="homeEcons">Home Economics</option>
+                    <option value="phe">PHE</option>
+                </select>
+
+                <select required name="thirdSubject" id="thirdSubject">
+                    <option value="" disabled selected>-- Select a subject --</option>
+                    <option value="english">English</option>
+                    <option value="maths">Mathematics</option>
+                    <option value="physics">Physics</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="account">Account</option>
+                    <option value="fmaths">Further Mathematics</option>
+                    <option value="commerce">Commerce</option>
+                    <option value="lit">Literature in English</option>
+                    <option value="econs">Economics</option>
+                    <option value="irs">IRK or CRK</option>
+                    <option value="government">Government</option>
+                    <option value="geography">Geography</option>
+                    <option value="biology">Biology</option>
+                    <option value="agric">Agriculture</option>
+                    <option value="french">French</option>
+                    <option value="yoruba">Yoruba</option>
+                    <option value="arabic">Arabic</option>
+                    <option value="hausa">Hausa</option>
+                    <option value="igbo">Igbo</option>
+                    <option value="history">History</option>
+                    <option value="music">Music</option>
+                    <option value="computer">Computer</option>
+                    <option value="fineArt">Fine Art</option>
+                    <option value="homeEcons">Home Economics</option>
+                    <option value="phe">PHE</option>
+                </select>
+
+                <select required name="fourthSubject" id="fourthSubject">
+                    <option value="" disabled selected>-- Select a subject --</option>
+                    <option value="english">English</option>
+                    <option value="maths">Mathematics</option>
+                    <option value="physics">Physics</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="account">Account</option>
+                    <option value="fmaths">Further Mathematics</option>
+                    <option value="commerce">Commerce</option>
+                    <option value="lit">Literature in English</option>
+                    <option value="econs">Economics</option>
+                    <option value="irs">IRK or CRK</option>
+                    <option value="government">Government</option>
+                    <option value="geography">Geography</option>
+                    <option value="biology">Biology</option>
+                    <option value="agric">Agriculture</option>
+                    <option value="french">French</option>
+                    <option value="yoruba">Yoruba</option>
+                    <option value="arabic">Arabic</option>
+                    <option value="hausa">Hausa</option>
+                    <option value="igbo">Igbo</option>
+                    <option value="history">History</option>
+                    <option value="music">Music</option>
+                    <option value="computer">Computer</option>
+                    <option value="fineArt">Fine Art</option>
+                    <option value="homeEcons">Home Economics</option>
+                    <option value="phe">PHE</option>
+                </select>
+
+                <select required name="fifthSubject" id="fifthSubject">
+                    <option value="" disabled selected>-- Select a subject --</option>
+                    <option value="english">English</option>
+                    <option value="maths">Mathematics</option>
+                    <option value="physics">Physics</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="account">Account</option>
+                    <option value="fmaths">Further Mathematics</option>
+                    <option value="commerce">Commerce</option>
+                    <option value="lit">Literature in English</option>
+                    <option value="econs">Economics</option>
+                    <option value="irs">IRK or CRK</option>
+                    <option value="government">Government</option>
+                    <option value="geography">Geography</option>
+                    <option value="biology">Biology</option>
+                    <option value="agric">Agriculture</option>
+                    <option value="french">French</option>
+                    <option value="yoruba">Yoruba</option>
+                    <option value="arabic">Arabic</option>
+                    <option value="hausa">Hausa</option>
+                    <option value="igbo">Igbo</option>
+                    <option value="history">History</option>
+                    <option value="music">Music</option>
+                    <option value="computer">Computer</option>
+                    <option value="fineArt">Fine Art</option>
+                    <option value="homeEcons">Home Economics</option>
+                    <option value="phe">PHE</option>
+                </select>
+            </div>
+
+            <div id="grades">
+                <h5>Grades</h5>
+                <select required name="gradeOne" id="gradeOne">
+                    <option value="" disabled selected>-- choose the grade --</option>
+                    <option value="4">A1</option>
+                    <option value="3.6">B3</option>
+                    <option value="3.2">C4</option>
+                    <option value="2.4">C5</option>
+                    <option value="2">C6</option>
+                </select>
+
+                <select required name="gradeTwo" id="gradeTwo">
+                    <option value="" disabled selected>-- choose the grade --</option>
+                    <option value="4">A1</option>
+                    <option value="3.6">B3</option>
+                    <option value="3.2">C4</option>
+                    <option value="2.4">C5</option>
+                    <option value="2">C6</option>
+                </select>
+
+                <select required name="gradeThree" id="gradeThree">
+                    <option value="" disabled selected>-- choose the grade --</option>
+                    <option value="4">A1</option>
+                    <option value="3.6">B3</option>
+                    <option value="3.2">C4</option>
+                    <option value="2.4">C5</option>
+                    <option value="2">C6</option>
+                </select>
+
+                <select required name="gradeFour" id="gradeFour">
+                    <option value="" disabled selected>-- choose the grade --</option>
+                    <option value="4">A1</option>
+                    <option value="3.6">B3</option>
+                    <option value="3.2">C4</option>
+                    <option value="2.4">C5</option>
+                    <option value="2">C6</option>
+                </select>
+
+                <select required name="gradeFive" id="gradeFive">
+                    <option value="" disabled selected>-- choose the grade --</option>
+                    <option value="4">A1</option>
+                    <option value="3.6">B3</option>
+                    <option value="3.2">C4</option>
+                    <option value="2.4">C5</option>
+                    <option value="2">C6</option>
+                </select>
+            </div>
+        </div>
+
+        <h3>UTME Score</h3>
+        <input type="text" required>
+
+        <h3>POST UTME Score</h3>
+        <input type="text" required>
+
+        <input style="cursor: pointer;" type="submit" value="Calculate">
+    </form>
 </body>
 </html>
